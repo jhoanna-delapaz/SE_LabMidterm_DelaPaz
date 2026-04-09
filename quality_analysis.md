@@ -31,8 +31,8 @@ The test cases located in `tests/test_module.py` serves as reference for the att
 
 Implementing the **CI Pipeline** enhances the reliability of the software in several ways:
 
-1. **Prevention of Human Error:** In some times when developers forget to run tests locally before pushing, reliability gets compromised. With a CI pipeline, it automates this process ensuring every single line of code is verified by a machine before it gets pushed, making it easier for developers.
-2. **Continuous Verification:** As projects grow, new code changes might accidentally break old features. The CI pipeline will help developers catch these errors immediately, ensuring the code in the "main" project branch does not completely break. Additionally, it will also show the reason why errors are occurring in the first place.
+* **Prevention of Human Error:** In some times when developers forget to run tests locally before pushing, reliability gets compromised. With a CI pipeline, it automates this process ensuring every single line of code is verified by a machine before it gets pushed, making it easier for developers.
+* **Continuous Verification:** As projects grow, new code changes might accidentally break old features. The CI pipeline will help developers catch these errors immediately, ensuring the code in the "main" project branch does not completely break. Additionally, it will also show the reason why errors are occurring in the first place.
 
 ---
 
