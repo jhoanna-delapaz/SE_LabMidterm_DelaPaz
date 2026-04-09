@@ -20,9 +20,9 @@ For the **UserValidator** module, the following two quality attributes are the m
 ---
 
 ## 2. How Automated Testing Supports These Attributes
-The test cases located in `tests/test_module.py` serves as reference for the attributes mentioned:
+The test cases located in `tests/test_module.py` serves as references for the attributes mentioned:
 
-* **Security:** The `test_register_negative_short_password` and `test_register_negative_invalid_chars` cases are meant to attempt to break the security rules. By ensuring these tests pass (meaning the code successfully blocks the invalid input), It is confirmed that the precautions are active and working.
+* **Security:** The `test_register_negative_short_password` and `test_register_negative_invalid_chars` cases are meant to attempt to break the security rules. By ensuring these tests pass (meaning the code successfully blocks the invalid input), this confirms that the precautions are active and working.
 * **Functional Suitability:** The `test_register_positive` case confirms that the system works for valid users, while the `test_register_edge_duplicate` case ensures the system prevents data redundancy.
   
 ---
@@ -31,8 +31,8 @@ The test cases located in `tests/test_module.py` serves as reference for the att
 
 Implementing the **CI Pipeline** enhances the reliability of the software in several ways:
 
-* **Prevention of Human Error:** In some times when developers forget to run tests locally before pushing, reliability gets compromised. With a CI pipeline, it automates this process ensuring every single line of code is verified by a machine before it gets pushed, making it easier for developers.
-* **Continuous Verification:** As projects grow, new code changes might accidentally break old features. The CI pipeline will help developers catch these errors immediately, ensuring the code in the "main" project branch does not completely break. Additionally, it will also show the reason why errors are occurring in the first place.
+* **Prevention of Human Error:** At times when developers forget to run tests locally before pushing, reliability gets compromised. With a CI pipeline, it automates this process ensuring every single line of code is verified by a machine before it gets pushed, making it easier for developers.
+* **Continuous Verification:** As projects grow, new code changes might accidentally break old features. The CI pipeline helps developers catch these errors immediately, ensuring the code in the "main" project branch does not completely break. Additionally, it will also show the reason why errors are occurring in the first place.
 
 ---
 
